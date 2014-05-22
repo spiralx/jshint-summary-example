@@ -1,19 +1,33 @@
 {
-  "name": "test",
-  "version": "0.0.0",
-  "description": "",
-  "main": "app/sloppy.js",
+  "name": "jshint-summary-example",
+  "version": "0.0.1",
+  "description": "Example usage of jshint-summary reporter using Grunt and Gulp",
+  "author": "James Skinner <spiralx@gmail.com> (http://github.com/spiralx)",
+  "keywords": [
+    "jshint-summary",
+    "reporter",
+    "jshint"
+  ],
   "dependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "~0.10.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
     "jshint-summary": "^0.4.0",
     "gulp": "^3.6.2",
     "gulp-jshint": "^1.6.1"
   },
   "scripts": {
-    "pretest": "npm install",
-    "test": "grunt"
+    "prestart": "npm install",
+    "start": "grunt && gulp"
   },
-  "author": "James Skinner <spiralx@gmail.com> (http://github.com/spiralx)",
-  "license": "BSD"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spiralx/jshint-summary-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spiralx/jshint-summary-example/issues"
+  },
+  "license": {
+    "type": "BSD",
+    "url": "https://github.com/spiralx/jshint-summary-example/blob/master/LICENSE"
+  }
 }
