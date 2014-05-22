@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app/sloppy.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "jshint-summary": "^0.4.0",
+    "gulp": "^3.6.2",
+    "gulp-jshint": "^1.6.1"
+  },
+  "scripts": {
+    "pretest": "npm install",
+    "test": "grunt"
+  },
+  "author": "James Skinner <spiralx@gmail.com> (http://github.com/spiralx)",
+  "license": "BSD"
+}
