@@ -1,6 +1,6 @@
 {
   "name": "jshint-summary-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Example usage of jshint-summary reporter using Grunt and Gulp",
   "author": "James Skinner <spiralx@gmail.com> (http://github.com/spiralx)",
   "keywords": [
@@ -11,8 +11,8 @@
   "dependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
-    "gulp": "^3.8.8",
-    "gulp-jshint": "^1.8.5"
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0"
   },
   "scripts": {
     "prestart": "npm install",

@@ -1,22 +1,40 @@
 # jshint-summary-example
 
-Tiny repository for testing my [jshint-summary](https://github.com/spiralx/jshint-summary) reporter plugin.
+Examples of using my [jshint-summary](https://github.com/spiralx/jshint-summary) reporter plugin under both [Grunt](http://gruntjs.com) and [Gulp](http://gulpjs.com).
+
+[![Dependency Status][daviddm-image]][daviddm-url]
 
 
-#### Usage
+## Download and install
 
 ```sh
-# Download and install
 git clone https://github.com/spiralx/jshint-summary-example.git
 cd jshint-summary-example
 npm install
+```
 
-# Run the plugin under Grunt
+
+## Usage
+
+To test using the plugin via Grunt run
+
+```
 grunt
+```
 
-# Run the plugin under Gulp
+and for Gulp run
+
+```sh
 gulp
 ```
 
 That's it!
 
+
+## License
+
+BSD © [James Skinner](http://github.com/spiralx)
+
+
+[daviddm-url]: https://david-dm.org/spiralx/jshint-summary-example
+[daviddm-image]: https://david-dm.org/spiralx/jshint-summary-example.svg?theme=shields.io
